@@ -1,0 +1,10 @@
+{
+    "themes": [
+        {
+            "id": 1,
+            "logo": "https://www.firstmedia.com/files/icons/logo/logo-fm-bg-white.png",
+            "footercopyright": "Copyright © 2022 PT Link Net Tbk - FIRST MEDIA.",
+            "footernoted": "First Media is a registered trademark of PT Link Net Tbk. All rights reserved."
+        }
+    ]
+}

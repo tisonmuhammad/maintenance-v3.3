@@ -1,0 +1,218 @@
+._konten {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background: #26262d
+}
+._kontenmain {
+    width: 100%;
+    min-height: 100vh;
+}
+._kontenmains {
+    height: 100vh;
+    background-color: #202026;
+}
+.logoheader {
+    position: absolute;
+    z-index: 1;
+    width: 94.13px;
+    height: 60px;
+    top: 29px;
+    left: 20px;
+}
+@media (min-width:768px) {
+    .logoheader {
+        left: 65px
+    }
+}
+
+.kontentv {
+    position: relative;
+    width: 100vw;
+    height: 70vw;
+    background-image: url(../public/tv2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.routerFM {
+    position: absolute;
+    width: 70px;
+    height: 145px;
+    background-image: url(../public/router.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: -60px;
+    z-index: 1;
+}
+.stbFM {
+    position: absolute;
+    width: 180px;
+    height: 185px;
+    background-image: url(../public/stb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: 0px;
+    top: 140px;
+    z-index: 1;
+}
+@media (min-width:768px) {
+    .kontentv {
+        position: absolute;
+        width: 70%;
+        height: 115%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+    }
+    .routerFM {
+        position: absolute;
+        width: 150px;
+        height: 305px;
+        align-self: flex-end;
+        bottom: -90px;
+    }
+    .stbFM {
+        position: absolute;
+        width: 459.67px;
+        height: 424.05px;
+        align-self: flex-end;
+        top: 420px;
+        right: 60px;
+    }
+}
+
+.contenBody {
+    position: relative;
+    width: 100%;
+    background-image: url(../public/bg2-01.jpg);
+    background-image: url(../public/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (min-width:768px) {
+    .contenBody {
+        /* height: 56.25vw; */
+        height: 43.25vw;
+    }
+}
+
+.ContainerBody {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+@media (min-width:768px) {
+    .ContainerBody {
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        padding-bottom: 5%
+    }
+}
+
+.RowBody {
+    width: 100%;
+}
+
+.wordingBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wordingBody .h1 {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: .5px;
+}
+@media (min-width:768px) {
+    .wordingBody .h1  {
+        text-align: left
+    }
+  }
+  
+  @media (min-width:1170px) {
+    .wordingBody .h1  {
+        font-size: 67px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -1px;
+        /* font-family: Vaud Bold, Helvetica Neue, sans-serif */
+    }
+  }
+
+.wordingBody .decs1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+    color: #ffffff80;
+}
+.wordingBody .decs2 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .5px;
+    width: 100%;
+    color: #ffffff80;
+    margin-bottom: 35px;
+}
+.wordingBody .decs2 a {
+    text-decoration-line: underline;
+    color: #008BFF80;
+}
+
+
+.bawah {
+    background-color: #202026;
+    height: 224px;
+}
+.bawah hr.line {
+    background-color: #fff;
+    opacity: .1;
+}
+.bawah .textCopyright {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .5px;
+    color: #707c86;
+    margin-top: 21px;
+}
+.bawah .logoFooter {
+    width: 62.75px;
+    height: 40px;
+    margin: 55px 0 20px;
+}
+
+.emojiRoket {
+    width: 35px;
+    height: 35px;
+    transform: translateY(3px);
+}
+@media (min-width:1170px) {
+    .emojiRoket {
+        width: 60px;
+        height: 60px;
+        transform: translateY(4px);
+    }
+}
