@@ -22,7 +22,7 @@ export default function Bawah(props) {
             <div className="Container">
                 <div className="Row">
                     <div className={`${styles["kol0"]} ${styles["kolxxl3"]} ${styles["kolxl4"]} ${styles["kollg5"]} ${styles["kolmd6"]} ${styles["kolsMd8"]} ${styles["kolsm9"]} ${styles["kol11"]}`}>
-                        <div styles="margin-top:30px;"></div>
+                        <div style="margin-top:50px;"></div>
                         {/* <Image className='logoFooter' src="/logo-fm-bg-white.png" alt="First Media Logo" width={62.75} height={40} /> */}
                         <hr className="line" />
                         <p className="textCopyright">
