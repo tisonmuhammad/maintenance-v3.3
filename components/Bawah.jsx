@@ -15,13 +15,14 @@ export default function Bawah(props) {
         "kolmd6": "Col--md-6",
         "kolsMd8": "Col--sMd-8",
         "kolsm9": "Col--sm-9",
+        "kolsm11": "Col--sm-11",
         "kol11": "Col--11",
     }
     return (
         <footer className="bawah">
             <div className="Container">
                 <div className="Row">
-                    <div className={`${styles["kol0"]} ${styles["kolxxl3"]} ${styles["kolxl4"]} ${styles["kollg5"]} ${styles["kolmd6"]} ${styles["kolsMd8"]} ${styles["kolsm9"]} ${styles["kol11"]}`}>
+                    <div className={`${styles["kol0"]} ${styles["kolxxl3"]} ${styles["kolxl4"]} ${styles["kollg5"]} ${styles["kolmd6"]} ${styles["kolsMd8"]} ${styles["kolsm11"]} ${styles["kol11"]}`}>
                         <div className='mt-5'></div>
                         {/* <Image className='logoFooter' src="/logo-fm-bg-white.png" alt="First Media Logo" width={62.75} height={40} /> */}
                         <hr className="line" />
