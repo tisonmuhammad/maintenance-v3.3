@@ -35,8 +35,7 @@ export default function Home(props) {
                                 <h1 className={`${styles["h1"]} ${styles["heading1"]}`}>
                                     <Image className='emojiRoket' src="/emojiHammer.png" alt="Maintenance First Media" width={60} height={60} /> {post.heading}
                                 </h1>
-                                <div className='decs1'>{post.subheading}</div>
-                                <div className='decs2' dangerouslySetInnerHTML={{ __html:post.notif}} />
+                                <div className='decs1' dangerouslySetInnerHTML={{ __html:post.subheading}} />
                             </div>)}
                         </div>
                     </div>
