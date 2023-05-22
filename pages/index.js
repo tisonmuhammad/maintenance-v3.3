@@ -36,7 +36,7 @@ export default function Home(props) {
                                     <Image className='emojiRoket' src="/emojiHammer.png" alt="Maintenance First Media" width={60} height={60} /> {post.heading}
                                 </h1>
                                 <div className='decs1'>{post.subheading}</div>
-                                <div className='decs2' dangerouslySetInnerHTML={{ __html:post.notif}} />
+                                <!--div className='decs2' dangerouslySetInnerHTML={{ __html:post.notif}} /-->
                             </div>)}
                         </div>
                     </div>
