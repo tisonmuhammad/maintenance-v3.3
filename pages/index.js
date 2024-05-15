@@ -69,3 +69,4 @@ export async function getStaticProps() {
 //     //Return the content of the data file in json format
 //     res.status(200).json(fileContents);
 // }
+// komen baru
